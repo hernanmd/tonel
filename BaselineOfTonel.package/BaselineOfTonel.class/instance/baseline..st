@@ -15,7 +15,7 @@ baseline: spec
 				group: 'core' with: #('MonticelloTonel-Core' 'MonticelloTonel-FileSystem');
 				group: 'tests' with: #('MonticelloTonel-Tests') ].
 
-	spec for: #(#'pharo4.x' #'pharo5.x' #'pharo6.x' #'pharo7.x') do: [
+	spec for: #(#'pharo4.x' #'pharo5.x' #'pharo6.x' #'pharo7.x' #'#'pharo8.x' #'pharo9.x' #'pharo10.x' #'pharo11.x') do: [
 		self ston: spec.
 
 		spec
